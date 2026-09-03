@@ -28,9 +28,7 @@ and identify services running on an authorized laboratory system.
 
 ## Commands
 
-nmap <TARGET-IP>
-
-nmap -sV <TARGET-IP>
+nmap -sV -O 192.168.56.101
 
 ## Findings
 
@@ -50,8 +48,4 @@ associated with them.
 
 ## Security Considerations
 
-All scanning was performed against an authorized laboratory
-
-environment. Network scanning should only be performed against
-
-systems where permission has been granted.
+All scanning was performed against an author
