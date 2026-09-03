@@ -13,7 +13,7 @@ Lab Environment
 
 What I Did
 
-1. Exploited a vulnerable service on Metasploitable 2 called telnet
+1. Exploited a vulnerable service on Metasploitable 2 called telnet to get the user and password
 2. Started a Wireshark packet capture.
 3. Logged into the target service while capturing traffic.
 4. Analyzed the packets to identify the transmitted login credentials.
