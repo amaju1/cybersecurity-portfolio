@@ -1,59 +1,97 @@
-# cybersecurity-portfolio
-A practical cybersecurity portfolio documenting my learning, labs, and hands-on projects in network security, ethical hacking, vulnerability assessment, and cybersecurity.
+Cybersecurity Portfolio
 
+About Me
 
-# Nmap Network Scanning Lab
+I am an aspiring Cybersecurity Professional with a background in Production Engineering and a growing focus on penetration testing, network security, ethical hacking, and security automation.
 
-## Objective
+This repository documents my hands-on cybersecurity journey through practical labs, security projects, and technical exercises.
 
-To learn how Nmap can be used to discover open ports
+Skills & Technologies
 
-and identify services running on an authorized laboratory system.
+* Penetration Testing
+* Network Reconnaissance & Enumeration
+* Vulnerability Assessment
+* Web Application Security
+* Network Security
+* XSS & Browser Security
+* Packet Analysis
+* Security Automation
+* Bash Scripting
+* Linux / Kali Linux
 
-## Lab Environment
+Tools
 
-- Operating System: Kali Linux
+Nmap · Metasploit · Wireshark · Burp Suite · BeEF · Enum4linux · Bash
 
-- Virtualization: VirtualBox
+Projects
 
-- Target: Personal/authorized cybersecurity lab
+🔹 Metasploitable 2 – Multi-Service Penetration Testing
 
-- Tool: Nmap
+Security assessment of an intentionally vulnerable machine, covering FTP, HTTP, SMTP, SSH, and Telnet services.
 
-## Methodology
+Focus: Vulnerability assessment, enumeration, exploitation, and penetration testing.
 
-1. Identified the IP address of the laboratory target.
+⸻
 
-2. Tested connectivity between Kali Linux and the target.
+🔹 DVWA Stored XSS & BeEF
 
-3. Performed a basic Nmap scan.
+Demonstrated the impact of a Stored XSS vulnerability by injecting a BeEF hook and performing browser-security testing in an isolated laboratory.
 
-4. Performed service and version detection using Nmap.
+Focus: Web application security, XSS, JavaScript, browser exploitation.
 
-## Commands
+⸻
 
-nmap -sV -O 192.168.56.101
+🔹 Network Traffic Analysis with Wireshark
 
-## Findings
+Captured and analyzed network traffic in a controlled environment to understand how network protocols can expose sensitive information.
 
-The scan identified several open TCP ports and the services
+Focus: Packet analysis, network security, protocol analysis.
 
-associated with them.
+⸻
 
-## What I Learned
+🔹 Automated Network Reconnaissance
 
-- How Nmap performs network reconnaissance.
+Developed a Bash script that automates Nmap reconnaissance and conditionally performs SMB enumeration with Enum4linux when port 445 is detected.
 
-- How to identify open ports.
+Focus: Bash, Nmap, Enum4linux, automation, reconnaissance.
 
-- How to identify running services.
+⸻
 
-- Why exposed services can increase an attack surface.
+🔹 More Projects Coming Soon
 
-## Security Considerations
+This portfolio is continuously being developed as I complete additional cybersecurity projects and laboratory exercises.
 
-All scanning was performed against an authorized laboratory
+Future projects will cover areas such as:
 
-environment. Network scanning should only be performed against
+* Web application security
+* Network penetration testing
+* Vulnerability assessment
+* Security automation
+* Defensive security
+* Digital forensics
+* Additional scripting projects
 
+Laboratory Environment
+
+Practical work is performed using isolated and intentionally vulnerable environments, including:
+
+* Kali Linux
+* Metasploitable 2
+* DVWA
+* VirtualBox
+
+Certifications & Training
+
+* Cisco Ethical Hacking – Intermediate
+* Additional cybersecurity training and certifications will be added as completed.
+
+Goal
+
+My goal is to develop strong practical cybersecurity skills and build a career in cybersecurity and penetration testing, combining my engineering background with hands-on security experience.
+
+Disclaimer
+
+All security testing documented in this repository was performed in authorized and isolated laboratory environments using systems intended for cybersecurity training.
+
+The techniques demonstrated should only be used against systems for which explicit authorization has been provided.
 systems where permission has been granted.
