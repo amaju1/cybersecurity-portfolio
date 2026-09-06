@@ -16,12 +16,13 @@ What I Did
 1. Exploited a vulnerable service on Metasploitable 2 called telnet to get the user and password
 2. Started a Wireshark packet capture.
 3. Logged into the target service while capturing traffic.
-4. Analyzed the packets to identify the transmitted login credentials.
+4. Analyzed the packets to identify the transmitted login credentials by checking the tcp stream
 5. Demonstrated the security risk of plaintext authentication.
 
 Key Finding
 
 The login credentials were visible within the captured network traffic because the authentication protocol did not properly encrypt the credentials.
+The findings are located in the tcp stream.
 
 Mitigation
 
