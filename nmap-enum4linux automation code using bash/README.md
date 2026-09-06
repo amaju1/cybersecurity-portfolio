@@ -7,22 +7,6 @@ This project is a Bash-based network reconnaissance script that automates initia
 
 The script first performs an Nmap scan to identify open ports. If SMB port 445 is detected as open, it automatically runs Enum4linux to perform additional SMB enumeration.
 
-Workflow
-
-Target IP
-   ↓
-Nmap Port Scan
-   ↓
-Identify Open Ports
-   ↓
-Is Port 445 Open?
-   ↓
- ┌───────────────┐
- │      Yes      │ → Run Enum4linux SMB Enumeration
- └───────────────┘
-        ↓
-   Save/Review Results
-
 Tools Used
 
 * Bash – Automation and scripting
