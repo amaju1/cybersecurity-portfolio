@@ -1,12 +1,16 @@
-Cybersecurity Portfolio
+CYBERSECURITY PORTFOLIO
 
-About Me
+ABOUT ME
 
 I am an aspiring Cybersecurity Professional with a background in Production Engineering and a growing focus on penetration testing, network security, ethical hacking, and security automation.
 
 This repository documents my hands-on cybersecurity journey through practical labs, security projects, and technical exercises.
 
-Skills & Technologies
+GOAL
+
+My goal is to develop strong practical cybersecurity skills and build a career in cybersecurity and penetration testing, combining my engineering background with hands-on security experience.
+
+SKILLS & TECHNOLOGY
 
 * Penetration Testing
 * Network Reconnaissance & Enumeration
@@ -19,11 +23,11 @@ Skills & Technologies
 * Bash Scripting
 * Linux / Kali Linux
 
-Tools
+TOOLS
 
 Nmap · Metasploit · Wireshark · Burp Suite · BeEF · Enum4linux · Bash
 
-Projects
+PROJECTS
 
 🔹 Metasploitable 2 – Multi-Service Penetration Testing
 
@@ -71,7 +75,7 @@ Future projects will cover areas such as:
 * Digital forensics
 * Additional scripting projects
 
-Laboratory Environment
+LABORATORY ENVIRONMENT
 
 Practical work is performed using isolated and intentionally vulnerable environments, including:
 
@@ -80,16 +84,12 @@ Practical work is performed using isolated and intentionally vulnerable environm
 * DVWA
 * VirtualBox
 
-Certifications & Training
+CERTIFICATIONS & TRAINING
 
 * Cisco Ethical Hacking – Intermediate
 * Additional cybersecurity training and certifications will be added as completed.
 
-Goal
-
-My goal is to develop strong practical cybersecurity skills and build a career in cybersecurity and penetration testing, combining my engineering background with hands-on security experience.
-
-Disclaimer
+DISCLAIMER
 
 All security testing documented in this repository was performed in authorized and isolated laboratory environments using systems intended for cybersecurity training.
 
